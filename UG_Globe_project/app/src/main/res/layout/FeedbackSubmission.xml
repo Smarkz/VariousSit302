@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2828"
+    android:filterTouchesWhenObscured="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="412dp"
+        android:layout_height="67dp"
+        android:background="#FF0000"
+        android:text="Global Obesity Center"
+        android:textColor="#FFFFFF"
+        android:textSize="42"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="350dp"
+        android:layout_height="125dp"
+        android:background="#5C5C5C"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="139dp"
+        android:layout_height="41dp"
+        android:background="#FFC107"
+        android:text="Cancel"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="330dp"
+        android:layout_height="93dp"
+        android:background="#474545"
+        android:text="Thank you for providing your feedback."
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:background="#FFC107"
+        android:text="Submit"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="414dp"
+        android:layout_height="65dp"
+        android:background="#FF0000"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="335dp"
+        android:layout_height="191dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Feedback"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="257dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
